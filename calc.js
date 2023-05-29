@@ -14,7 +14,7 @@ teclasNum.forEach((el)=>{
         sinal=false
                 if(evt.target.innerHTML=="."){
             if(!decimal){
-                decimal=true
+                decimal=false
                 if(display.innerHTML=="0"){
                     display.innerHTML="0."
                 }else{
